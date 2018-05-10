@@ -176,7 +176,7 @@ echo $STRING9
 cd $USERHOME
 su -c "mkdir $USERHOME/buildmrt" $USER
 cd buildmrt
-su -c "git clone $GitHubSys" $USER &&
+su -c "git clone $GitHubMerit" $USER &&
 cd merit
 
 # Build Merit Core from sources
