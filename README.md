@@ -1,19 +1,19 @@
-# sys-mn-install
+# merit-miner-install
 
-## Syscoin Masternode Guided Install
+## Merit (MRT) Miner Installation Script
 
-This is the Syscoin Guided Masternode Install script.  I made this script primarily for my own personal use.
+This is an installation script for mining Merit (MRT).  I made this script primarily for my own personal use.
 
-This Masternode install script is based on the Bulwark masternode install script created by the [Bulwark team](https://github.com/bulwark-crypto/Bulwark-MN-Install)
+This install script is based on the Syscoin Masternode install script, which in turn was based on the Bulwark masternode install script created by the [Bulwark team](https://github.com/bulwark-crypto/Bulwark-MN-Install)
 
-The install procedure is mostly based on this medium [post](https://medium.com/@BlockchainFoundry/syscoin-3-0-masternode-setup-instructions-572576c7163f) with some enhancements included.
+The install procedure is mostly based on this the Merit website instructions (https://www.merit.me/get-started/) with some enhancements included.
 
-To fix the locale settings on your VPS, you may want to run the following before running the Masternode Install Script:
+To fix the locale settings on your VPS, you may want to run the following before running the Install Script:
 
-```bash <( curl https://raw.githubusercontent.com/ljankok/sys-mn-install/master/fix-locale.sh )```
+```bash <( curl https://raw.githubusercontent.com/akriv-git/merit-miner-install/master/fix-locale.sh )```
 
-To install your masternode, issue the following command on your VPS:
+To install your miner, issue the following command on your VPS:
 
-```bash <( curl https://raw.githubusercontent.com/ljankok/sys-mn-install/master/sys-mn-build.sh )```
+```bash <( curl https://raw.githubusercontent.com/akriv-git/merit-miner-install/master/mrt-mnr-build.sh )```
 
 Have Fun!
